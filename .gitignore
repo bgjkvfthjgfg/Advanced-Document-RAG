@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+data/
+models/
+outputs/
+*.pt
+*.bin
+*.ckpt
+*.pth
+.DS_Store

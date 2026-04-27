@@ -1,0 +1,20 @@
+=== Accuracy ===
+system
+baseline_3B    0.56
+rerank_14B     0.90
+rerank_3B      0.70
+Name: answer_correct, dtype: float64
+
+=== Grounding ===
+system
+baseline_3B    0.84
+rerank_14B     1.00
+rerank_3B      0.90
+Name: grounding_valid, dtype: float64
+
+=== Error Breakdown ===
+error_type   contradiction  correct  generation_failure  hallucination  incomplete  partial_answer  retrieval_ranking_issue  unanswerable_handling
+system                                                                                                                                            
+baseline_3B              1       28                   2              9           0               5                        1                      4
+rerank_14B               0       44                   0              0           0               2                        0                      4
+rerank_3B                0       35                   2              7           1               1                        0                      4

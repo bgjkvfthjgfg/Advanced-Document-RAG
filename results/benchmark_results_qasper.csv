@@ -1,0 +1,151 @@
+sample_id,system,question,answer_correct,grounding_valid,error_type
+qasper_0000,baseline_3B,What is the seed lexicon?,0,1,retrieval_ranking_issue
+qasper_0000,rerank_3B,What is the seed lexicon?,1,1,correct
+qasper_0000,rerank_14B,What is the seed lexicon?,1,1,correct
+qasper_0001,baseline_3B,What are the results?,0,1,generation_failure
+qasper_0001,rerank_3B,What are the results?,0,1,generation_failure
+qasper_0001,rerank_14B,What are the results?,1,1,partial_answer
+qasper_0002,baseline_3B,How are relations used to propagate polarity?,1,1,correct
+qasper_0002,rerank_3B,How are relations used to propagate polarity?,1,1,correct
+qasper_0002,rerank_14B,How are relations used to propagate polarity?,1,1,correct
+qasper_0003,baseline_3B,How big is the Japanese data?,0,1,unanswerable_handling
+qasper_0003,rerank_3B,How big is the Japanese data?,0,1,unanswerable_handling
+qasper_0003,rerank_14B,How big is the Japanese data?,1,1,correct
+qasper_0004,baseline_3B,How big are improvements...,0,1,partial_answer
+qasper_0004,rerank_3B,How big are improvements...,0,1,partial_answer
+qasper_0004,rerank_14B,How big are improvements...,0,1,partial_answer
+qasper_0005,baseline_3B,How does their model learn using mostly raw data?,0,1,partial_answer
+qasper_0005,rerank_3B,How does their model learn using mostly raw data?,1,1,correct
+qasper_0005,rerank_14B,How does their model learn using mostly raw data?,1,1,correct
+qasper_0006,baseline_3B,How big is seed lexicon used for training?,1,1,correct
+qasper_0006,rerank_3B,How big is seed lexicon used for training?,1,1,correct
+qasper_0006,rerank_14B,How big is seed lexicon used for training?,1,1,correct
+qasper_0007,baseline_3B,How do the various social phenomena...,0,1,generation_failure
+qasper_0007,rerank_3B,How do the various social phenomena...,0,1,generation_failure
+qasper_0007,rerank_14B,How do the various social phenomena...,1,1,correct
+qasper_0008,baseline_3B,How did they select the 300 Reddit communities?,0,1,partial_answer
+qasper_0008,rerank_3B,How did they select the 300 Reddit communities?,0,1,hallucination
+qasper_0008,rerank_14B,How did they select the 300 Reddit communities?,1,1,correct
+qasper_0009,baseline_3B,Is all text in this dataset a question?,1,1,correct
+qasper_0009,rerank_3B,Is all text in this dataset a question?,1,1,correct
+qasper_0009,rerank_14B,Is all text in this dataset a question?,1,1,correct
+qasper_0010,baseline_3B,How many questions are in the dataset?,1,1,correct
+qasper_0010,rerank_3B,How many questions are in the dataset?,1,1,correct
+qasper_0010,rerank_14B,How many questions are in the dataset?,1,1,correct
+qasper_0011,baseline_3B,What aspects have been compared...,1,1,correct
+qasper_0011,rerank_3B,What aspects have been compared...,1,1,correct
+qasper_0011,rerank_14B,What aspects have been compared...,1,1,correct
+qasper_0012,baseline_3B,How many attention layers...,0,1,unanswerable_handling
+qasper_0012,rerank_3B,How many attention layers...,0,1,unanswerable_handling
+qasper_0012,rerank_14B,How many attention layers...,1,1,correct
+qasper_0013,baseline_3B,What are the three measures of bias...,0,1,hallucination
+qasper_0013,rerank_3B,What are the three measures of bias...,0,1,hallucination
+qasper_0013,rerank_14B,What are the three measures of bias...,0,1,unanswerable_handling
+qasper_0014,baseline_3B,How big is the dataset?,1,1,correct
+qasper_0014,rerank_3B,How big is the dataset?,1,1,correct
+qasper_0014,rerank_14B,How big is the dataset?,1,1,correct
+qasper_0015,baseline_3B,How is the intensity of the PTSD established?,0,1,unanswerable_handling
+qasper_0015,rerank_3B,How is the intensity of the PTSD established?,0,1,unanswerable_handling
+qasper_0015,rerank_14B,How is the intensity of the PTSD established?,0,1,unanswerable_handling
+qasper_0016,baseline_3B,how is quality measured?,1,1,correct
+qasper_0016,rerank_3B,how is quality measured?,1,1,correct
+qasper_0016,rerank_14B,how is quality measured?,1,1,correct
+qasper_0017,baseline_3B,What is the accuracy reported...,0,1,hallucination
+qasper_0017,rerank_3B,What is the accuracy reported...,0,1,hallucination
+qasper_0017,rerank_14B,What is the accuracy reported...,0,1,unanswerable_handling
+qasper_0018,baseline_3B,How do the authors define incorrect words?,0,1,partial_answer
+qasper_0018,rerank_3B,How do the authors define incorrect words?,1,1,correct
+qasper_0018,rerank_14B,How do the authors define incorrect words?,1,1,correct
+qasper_0019,baseline_3B,By how much do they outperform...,0,1,unanswerable_handling
+qasper_0019,rerank_3B,By how much do they outperform...,0,1,unanswerable_handling
+qasper_0019,rerank_14B,By how much do they outperform...,0,1,unanswerable_handling
+qasper_0020,baseline_3B,Which experiments are perfomed?,1,1,correct
+qasper_0020,rerank_3B,Which experiments are perfomed?,1,1,correct
+qasper_0020,rerank_14B,Which experiments are perfomed?,1,1,correct
+qasper_0021,baseline_3B,By how much does their system outperform the lexicon-based models?,1,1,correct
+qasper_0021,rerank_3B,By how much does their system outperform the lexicon-based models?,0,0,hallucination
+qasper_0021,rerank_14B,By how much does their system outperform the lexicon-based models?,1,1,correct
+qasper_0022,baseline_3B,How are the main international development topics that states raise identified?,1,1,correct
+qasper_0022,rerank_3B,How are the main international development topics that states raise identified?,1,1,correct
+qasper_0022,rerank_14B,How are the main international development topics that states raise identified?,1,1,correct
+qasper_0023,baseline_3B,Is the semantic hierarchy representation used for any task?,0,0,contradiction
+qasper_0023,rerank_3B,Is the semantic hierarchy representation used for any task?,1,1,correct
+qasper_0023,rerank_14B,Is the semantic hierarchy representation used for any task?,1,1,correct
+qasper_0024,baseline_3B,Is the model evaluated?,1,1,correct
+qasper_0024,rerank_3B,Is the model evaluated?,1,1,correct
+qasper_0024,rerank_14B,Is the model evaluated?,1,1,correct
+qasper_0025,baseline_3B,How better is accuracy of new model compared to previously reported models?,1,1,correct
+qasper_0025,rerank_3B,How better is accuracy of new model compared to previously reported models?,0,0,hallucination
+qasper_0025,rerank_14B,How better is accuracy of new model compared to previously reported models?,1,1,correct
+qasper_0026,baseline_3B,How does the active learning model work?,1,1,correct
+qasper_0026,rerank_3B,How does the active learning model work?,1,1,correct
+qasper_0026,rerank_14B,How does the active learning model work?,1,1,correct
+qasper_0027,baseline_3B,Did the annotators agreed and how much?,1,1,correct
+qasper_0027,rerank_3B,Did the annotators agreed and how much?,1,1,correct
+qasper_0027,rerank_14B,Did the annotators agreed and how much?,1,1,correct
+qasper_0028,baseline_3B,What datasets are used to evaluate this approach?,1,1,correct
+qasper_0028,rerank_3B,What datasets are used to evaluate this approach?,1,1,correct
+qasper_0028,rerank_14B,What datasets are used to evaluate this approach?,1,1,correct
+qasper_0029,baseline_3B,What models other than standalone BERT is new model compared to?,1,1,correct
+qasper_0029,rerank_3B,What models other than standalone BERT is new model compared to?,1,1,correct
+qasper_0029,rerank_14B,What models other than standalone BERT is new model compared to?,1,1,correct
+qasper_0030,baseline_3B,How big is the performance difference between this method and the baseline?,1,1,correct
+qasper_0030,rerank_3B,How big is the performance difference between this method and the baseline?,1,1,correct
+qasper_0030,rerank_14B,How big is the performance difference between this method and the baseline?,1,1,correct
+qasper_0031,baseline_3B,What approaches without reinforcement learning have been tried?,1,1,correct
+qasper_0031,rerank_3B,What approaches without reinforcement learning have been tried?,1,1,correct
+qasper_0031,rerank_14B,What approaches without reinforcement learning have been tried?,1,1,correct
+qasper_0032,baseline_3B,Which languages do they validate on?,1,1,correct
+qasper_0032,rerank_3B,Which languages do they validate on?,1,1,correct
+qasper_0032,rerank_14B,Which languages do they validate on?,1,1,correct
+qasper_0033,baseline_3B,What is the baseline method for the task?,0,0,hallucination
+qasper_0033,rerank_3B,What is the baseline method for the task?,1,1,correct
+qasper_0033,rerank_14B,What is the baseline method for the task?,1,1,correct
+qasper_0034,baseline_3B,what amounts of size were used on german-english?,1,1,correct
+qasper_0034,rerank_3B,what amounts of size were used on german-english?,0,0,incomplete
+qasper_0034,rerank_14B,what amounts of size were used on german-english?,1,1,correct
+qasper_0035,baseline_3B,What MC abbreviate for?,0,0,hallucination
+qasper_0035,rerank_3B,What MC abbreviate for?,0,0,hallucination
+qasper_0035,rerank_14B,What MC abbreviate for?,1,1,correct
+qasper_0036,baseline_3B,What are their correlation results?,1,1,correct
+qasper_0036,rerank_3B,What are their correlation results?,1,1,correct
+qasper_0036,rerank_14B,What are their correlation results?,1,1,correct
+qasper_0037,baseline_3B,What linguistic quality aspects are addressed?,1,1,correct
+qasper_0037,rerank_3B,What linguistic quality aspects are addressed?,1,1,correct
+qasper_0037,rerank_14B,What linguistic quality aspects are addressed?,1,1,correct
+qasper_0038,baseline_3B,What dataset do they use?,1,1,correct
+qasper_0038,rerank_3B,What dataset do they use?,1,1,correct
+qasper_0038,rerank_14B,What dataset do they use?,1,1,correct
+qasper_0039,baseline_3B,What is typical GAN architecture for each text-to-image synhesis group?,0,0,hallucination
+qasper_0039,rerank_3B,What is typical GAN architecture for each text-to-image synhesis group?,1,1,correct
+qasper_0039,rerank_14B,What is typical GAN architecture for each text-to-image synhesis group?,1,1,correct
+qasper_0040,baseline_3B,What language do the agents talk in?,0,1,partial_answer
+qasper_0040,rerank_3B,What language do the agents talk in?,1,1,correct
+qasper_0040,rerank_14B,What language do the agents talk in?,1,1,correct
+qasper_0041,baseline_3B,How much better is performance of proposed method than state-of-the-art methods in experiments?,1,1,correct
+qasper_0041,rerank_3B,How much better is performance of proposed method than state-of-the-art methods in experiments?,1,1,correct
+qasper_0041,rerank_14B,How much better is performance of proposed method than state-of-the-art methods in experiments?,1,1,correct
+qasper_0042,baseline_3B,What baseline model is used?,0,0,hallucination
+qasper_0042,rerank_3B,What baseline model is used?,1,1,correct
+qasper_0042,rerank_14B,What baseline model is used?,1,1,correct
+qasper_0043,baseline_3B,What stylistic features are used to detect drunk texts?,0,0,hallucination
+qasper_0043,rerank_3B,What stylistic features are used to detect drunk texts?,1,1,correct
+qasper_0043,rerank_14B,What stylistic features are used to detect drunk texts?,1,1,correct
+qasper_0044,baseline_3B,What is the accuracy of the proposed technique?,0,0,hallucination
+qasper_0044,rerank_3B,What is the accuracy of the proposed technique?,1,1,correct
+qasper_0044,rerank_14B,What is the accuracy of the proposed technique?,1,1,correct
+qasper_0045,baseline_3B,Which retrieval system was used for baselines?,0,0,hallucination
+qasper_0045,rerank_3B,Which retrieval system was used for baselines?,0,0,hallucination
+qasper_0045,rerank_14B,Which retrieval system was used for baselines?,1,1,correct
+qasper_0046,baseline_3B,How much better was the BLSTM-CNN-CRF than the BLSTM-CRF?,1,1,correct
+qasper_0046,rerank_3B,How much better was the BLSTM-CNN-CRF than the BLSTM-CRF?,1,1,correct
+qasper_0046,rerank_14B,How much better was the BLSTM-CNN-CRF than the BLSTM-CRF?,1,1,correct
+qasper_0047,baseline_3B,What supplemental tasks are used for multitask learning?,1,1,correct
+qasper_0047,rerank_3B,What supplemental tasks are used for multitask learning?,1,1,correct
+qasper_0047,rerank_14B,What supplemental tasks are used for multitask learning?,1,1,correct
+qasper_0048,baseline_3B,How much performance gap between their approach and the strong handcrafted method?,1,1,correct
+qasper_0048,rerank_3B,How much performance gap between their approach and the strong handcrafted method?,1,1,correct
+qasper_0048,rerank_14B,How much performance gap between their approach and the strong handcrafted method?,1,1,correct
+qasper_0049,baseline_3B,How big is their model?,1,1,correct
+qasper_0049,rerank_3B,How big is their model?,1,1,correct
+qasper_0049,rerank_14B,How big is their model?,1,1,correct
